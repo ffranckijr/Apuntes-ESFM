@@ -1,0 +1,23 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {chapter}{\numberline {1}Introducción}{5}{}%
+\contentsline {section}{\numberline {1.1}Objetivo}{5}{}%
+\contentsline {section}{\numberline {1.2}Temario}{5}{}%
+\contentsline {section}{\numberline {1.3}Bibliografía}{6}{}%
+\contentsline {section}{\numberline {1.4}Evaluación}{6}{}%
+\contentsline {subsection}{\numberline {1.4.1}Quizes}{6}{}%
+\contentsline {chapter}{\numberline {2}$R^n$ como espacio euclidiano.}{7}{}%
+\contentsline {section}{\numberline {2.1}El espacio $R^n$.}{7}{}%
+\contentsline {subsection}{\numberline {2.1.1}Definición de la suma y multiplicación por escalar.}{7}{}%
+\contentsline {subsection}{\numberline {2.1.2}Tarea}{7}{}%
+\contentsline {subsubsection}{Demostración de que $R^n$ es un espacio vectorial}{8}{}%
+\contentsline {subsubsection}{Demostración de que su dimensión es n}{8}{}%
+\contentsline {section}{\numberline {2.2}Hipótesis}{8}{}%
+\contentsline {chapter}{\numberline {3}Resultados}{9}{}%
+\contentsline {section}{\numberline {3.1}Simulación de resultados}{9}{}%
+\contentsline {subsection}{\numberline {3.1.1}Suposiciones}{9}{}%
+\contentsline {subsection}{\numberline {3.1.2}Modelos}{9}{}%
+\contentsline {section}{\numberline {3.2}Resultados preliminares}{9}{}%
+\contentsline {section}{\numberline {3.3}Resultados postprocesados}{9}{}%
+\contentsline {subsection}{\numberline {3.3.1}Valores atípicos}{9}{}%
+\contentsline {subsection}{\numberline {3.3.2}Correlaciones}{9}{}%
+\contentsline {chapter}{\numberline {4}Conclusiones}{11}{}%
