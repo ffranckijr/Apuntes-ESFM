@@ -105,18 +105,103 @@ $\\\overrightarrow{z}=(z_{1},z_{2},...,z_{n})$
     $\\\longrightarrow (\overrightarrow{x}+\overrightarrow{y})\in R^n$
 
     \item $\forall \hspace{0.2 cm}\overrightarrow{x}, \overrightarrow{y} \in R^n \longrightarrow \overrightarrow{x}+\overrightarrow{y}=\overrightarrow{y}+\overrightarrow{x}$
-    \\Demostracion:
+    \\Demostración:
     $\\\overrightarrow{x}+\overrightarrow{y}=(x_{1},x_{2},...,x_{n})+(y_{1},y_{2},...,y_{n})$
     $\\\overrightarrow{x}+\overrightarrow{y}=(x_{1}+y_{1},x_{2}+y_{2},...,x_{n}+y_{n})$
     \\Por asociatividad en los reales$\\\overrightarrow{x}+\overrightarrow{y}=(y_{1}+x_{1},y_{2}+x_{2},...,y_{n}+x_{n})$
     $\\\overrightarrow{x}+\overrightarrow{y}=\overrightarrow{y}+\overrightarrow{x}$
     \item $\forall \hspace*{0.2cm}\overrightarrow{x},\overrightarrow{y},\overrightarrow{z}\in R^n \longrightarrow (\overrightarrow{x}+\overrightarrow{y})+\overrightarrow{z}=\overrightarrow{x}+(\overrightarrow{y}+\overrightarrow{z})$
     \\Demostración: 
-    $\overrightarrow{x},\overrightarrow{y},\overrightarrow{z}=(x_{1}+y_{1},x_{2}+y_{2},...,x_{n}+y_{n})+(z_{1},z_{2},...,z_{n})$
+    $\\(\overrightarrow{x}+\overrightarrow{y})+\overrightarrow{z}=(x_{1}+y_{1},x_{2}+y_{2},...,x_{n}+y_{n})+(z_{1},z_{2},...,z_{n})$
+    $\\(\overrightarrow{x}+\overrightarrow{y})+\overrightarrow{z}=(x_{1}+y_{1}+z_{1},x_{2}+y_{2}+z_{2},...,x_{n}+y_{n}+z_{n})$
+    $\\(\overrightarrow{x}+\overrightarrow{y})+\overrightarrow{z}=(x_{1},x_{2},...,x_{n})+(y_{1}+z_{1},y_{2}+z_{2},...,z_{n})$
+    $\\(\overrightarrow{x}+\overrightarrow{y})+\overrightarrow{z}=\overrightarrow{x}+(\overrightarrow{y}+\overrightarrow{z})$
+    \item $\exists \hspace*{0.2cm}\overrightarrow{0} \in R^n\hspace*{0.2cm}$ tal que $\hspace*{0.2cm}\forall \overrightarrow{x} \hspace*{0.2cm}\in R^n \longrightarrow \overrightarrow{x}+\overrightarrow{0}=\overrightarrow{x}$
+    \\Demostración:
+    \\Sea $\overrightarrow{0}=(0,0,...,0)$
+    $\\\overrightarrow{x}+\overrightarrow{0}=(x_{1}+0,x_{2}+0,...,x_{n}+0)$
+    $\\\overrightarrow{x}+\overrightarrow{0}=(x_{1},x_{2},...,x_{n})$
+    $\\\overrightarrow{x}+\overrightarrow{0}=\overrightarrow{x}$
+    
+    \item $\\\forall\hspace*{0.2cm}\overrightarrow{x}\in R^n\hspace*{0.2cm}\exists\hspace*{0.2cm}-\overrightarrow{x}\in R^n\hspace*{0.2cm}tal que \overrightarrow{x}+(-\overrightarrow{x})=\overrightarrow{0}\hspace*{0.2cm}Existencia de inversos$
+    \\Demostración:
+    $\\\overrightarrow{x}+(-\overrightarrow{x})=(x_{1},...,x_{n})+(-x_{1},-x_{2},...,-x_{n})$
+    $\\\overrightarrow{x}+(-\overrightarrow{x})=(x_{1}+(-x_{1}),x_{2}+(-x_{2}),...,x_{n}+(-x_{n}))$
+    $\\\overrightarrow{x}+(-\overrightarrow{x})=(0,0,...,0)$
+    $\\\overrightarrow{x}+(-\overrightarrow{x})=\overrightarrow{0}$
+    \item Sea $\alpha,\beta \in R$
+    $\\\forall\hspace*{0.2cm}\overrightarrow{x}\in R^n\hspace*{0.2cm}y \hspace*{0.2cm}\alpha\in R\longrightarrow \alpha\overrightarrow{x}\in R^n$
+    \\Demostración:
+    $\\\overrightarrow{x}=(x_{1},...,x_{n}),\hspace*{0.2cm}x_{i}\in R,\hspace*{0.2cm} i=1,2,...,n$
+    $\\\alpha x_{i}\in R,\hspace*{0.2cm}i=1,2,...,n$
+    $\\\alpha \overrightarrow{x}=(\alpha x_{1},\alpha x_{2},...,\alpha x_{n})$
+    $\\\longrightarrow \alpha \overrightarrow{x}\in R^n$
+    \item $\forall \overrightarrow{x}\in R^n\longrightarrow 1*\overrightarrow{x}=\overrightarrow{x}$
+    \\Demostración:
+    $\\1*\overrightarrow{x}=1*(x_{1},...,x_{n})$
+    $\\1*\overrightarrow{x}=(1*x_{1},1*x_{2},...,1*x_{n})$
+    $\\1*\overrightarrow{x}=(x_{1},x_{2},...,x_{n})$
+    $\\1*\overrightarrow{x}=\overrightarrow{x}$
+    \item 
+    $\forall \alpha ,\beta \in R\hspace*{0.2cm} y \hspace*{0.2cm} \overrightarrow{x}\in R^n \longrightarrow \alpha(\beta \overrightarrow{x})=(\alpha \beta)\overrightarrow{x}$
+    \\Demostración:
+    $\\\alpha(\beta\overrightarrow{x})=\alpha(\beta(x_{1},x_{2},...,x_{n}))$
+    $\\\hspace*{1cm}=(\alpha(\beta x_{1},\beta x_{2},...,\beta x_{n}))$
+    $\\\hspace*{1cm}=((\alpha \beta)x_{1},(\alpha\beta)x_{2},...,(\alpha\beta)x_{n})$
+    $\\\hspace*{1cm}=(\alpha\beta)(x_{1},...,x_{n})$
+    $\\\hspace*{1cm}=(\alpha\beta)\overrightarrow{x}$
 
+    \item 
+    $\forall \alpha ,\beta \in R\hspace*{0.2cm} y \hspace*{0.2cm} \overrightarrow{x}\in R^n \longrightarrow (\alpha+\beta)\overrightarrow{x}=\alpha \overrightarrow{x}+\beta\overrightarrow{x}$
+    \\Demostración:
+    $\\(\alpha+\beta)\overrightarrow{x}=(\alpha+\beta)(x_{1},...,x_{n})$
+    $\\\hspace*{1.5cm}=((\alpha+\beta)x_{1},...,(\alpha+\beta)x_{n})$
+    $\\\hspace*{1.5cm}=(\alpha x_{1}+\beta x_{2},...,\alpha x_{n}+\beta x_{n})$
+    $\\\hspace*{1.5cm}=(\alpha x_{1},...,\alpha x_{n})+(\beta x_{1},...,\beta x_{n})$
+    $\\\hspace*{1.5cm}=\alpha(x_{1},...,x_{n})+\beta(x_{1},...x_{n})$
+    $\\\hspace*{1.5cm}=\alpha\overrightarrow{x}+\beta\overrightarrow{x}$
+
+
+    \item 
+    $\forall \alpha \in R\hspace*{0.2cm} y \hspace*{0.2cm} \overrightarrow{x},\overrightarrow{y}\in R^n \longrightarrow \alpha(\overrightarrow{x}+\overrightarrow{y})=\alpha \overrightarrow{x}+\alpha\overrightarrow{y}$
+    \\Demostración:
+    $\\\alpha(\overrightarrow{x}+\overrightarrow{y})=\alpha((x_{1},...,x_{n})+(y_{1},...,y_{n}))$
+    $\\\hspace*{1.6cm}=\alpha((x_{1}+y_{1}),...,(x_{n}+y_{n}))$
+    $\\\hspace*{1.6cm}=(\alpha(x_{1}+y_{1}),...,\alpha(x_{n}+y_{n}))$
+    $\\\hspace*{1.6cm}=((\alpha x_{1}+\alpha y_{1}),...,(\alpha x_{n}+\alpha y_{n}))$
+    $\\\hspace*{1.6cm}=(\alpha x_{1},...,\alpha x_{n})+(\alpha y_{1},...,\alpha y_{n})$
+    $\\\hspace*{1.6cm}=\alpha(x_{1},...,x_{n})+\alpha(y_{1},...,y_{n})$
+    $\\\hspace*{1.6cm}=\alpha\overrightarrow{x}+\alpha\overrightarrow{y}$
 \end{enumerate}
+
 \subsubsection{Demostración de que su dimensión es n}
-\section{Hipótesis}
+Definición:
+\\Sea$\hspace*{0.2cm} \overrightarrow{V} un \hspace*{0.2cm} F-e.v.$ con base finita $\beta\longrightarrow\hspace*{0.2cm}dim(V)=|\beta|$
+\\$R^n$ tiene como base canonica: $\beta=\{(1,0,...,0),(0,1,...,0),...,(0,0,...,1)\}$
+$\\\longrightarrow$ $dim(R^n)=n$
+\newpage
+\section{Recordatorio/Repaso}
+En $R^2$ teniamos nociones de distancia, Norma y producto interno.
+\subsection*{Norma}
+$\|\overrightarrow{x}\|=\sqrt[]{x_{1}^2+x_{2}^2}$, es decir la longitud del vector.
+\subsection*{Distancia}
+$d(\overrightarrow{x},\overrightarrow{y})=\|\overrightarrow{x}*\overrightarrow{y}\|=\sqrt[]{(x_{1}*y_{1})^2+(x_{2}*y_{2})^2}$ Es la distancia entre dos vectores.
+\subsection*{Producto interno}
+$<\overrightarrow{x},\overrightarrow{y}>=x_{1}y_{1}+x_{2}y_{2}$
+$\\\hspace*{0.4cm}<\overrightarrow{x},\overrightarrow{y}>=\|\overrightarrow{x}\|\|\overrightarrow{y}\|\cos \theta$
+\\El producto interno nos da informacion sobre el angulo entre dos vectore:
+\\si $<\overrightarrow{x},\overrightarrow{y}>=0$ y $\|\overrightarrow{x}\|\neq0$
+\\$\hspace*{2.9cm}\|\overrightarrow{y}\|\neq0$
+\\Entonces los vectores son ortoganales.
+\subsubsection*{Propiedades del producto punto}
+\begin{enumerate}
+    \item $\overrightarrow{x}*\overrightarrow{y}=\overrightarrow{y}*\overrightarrow{x}$
+    \item $(\alpha\overrightarrow{x})*\overrightarrow{y}=\alpha(\overrightarrow{x}*\overrightarrow{y})$
+    \item $\overrightarrow{x}(\overrightarrow{y_{1}}+\overrightarrow{y_{2}})=\overrightarrow{x}*\overrightarrow{y_{1}}+\overrightarrow{x}*\overrightarrow{y_{2}}$
+    \item $\overrightarrow{x}*\overrightarrow{x}\geq0;$$\overrightarrow{x}*\overrightarrow{x}=0\longleftrightarrow\overrightarrow{x}=\overrightarrow{0}$
+\end{enumerate}
+\subsection*{Observaciones}
+
 \chapter{Resultados}
 \section{Simulación de resultados}
 \subsection{Suposiciones}
