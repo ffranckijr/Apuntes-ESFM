@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1677085191 "c:/Users/PLAZA INSURGENTES/Desktop/Apuntes-ESFM/Cálculo 3/main.tex" "build/main.pdf" "main" 1677085192 0
+["pdflatex"] 1677183443 "c:/Users/PLAZA INSURGENTES/Desktop/Apuntes-ESFM/Cálculo 3/main.tex" "build/main.pdf" "main" 1677183444 0
   "C:/Users/PLAZA INSURGENTES/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1677035527 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/PLAZA INSURGENTES/AppData/Local/MiKTeX/fonts/tfm/public/rsfs/rsfs10.tfm" 1677006297 688 37338d6ab346c2f1466b29e195316aa4 ""
   "C:/Users/PLAZA INSURGENTES/AppData/Local/MiKTeX/fonts/tfm/public/rsfs/rsfs5.tfm" 1677006298 684 3a51bd4fd9600428d5264cf25f04bb9a ""
@@ -40,10 +40,10 @@
   "C:/Users/PLAZA INSURGENTES/AppData/Local/Programs/MiKTeX/tex/latex/jknappen/mathrsfs.sty" 930761292 300 12fa6f636b617656f2810ee82cb05015 ""
   "C:/Users/PLAZA INSURGENTES/AppData/Local/Programs/MiKTeX/tex/latex/jknappen/ursfs.fd" 930761286 548 cc4e3557704bfed27c7002773fad6c90 ""
   "C:/Users/PLAZA INSURGENTES/AppData/Local/Programs/MiKTeX/tex/latex/l3backend/l3backend-pdftex.def" 1664385028 30426 b4bd1ea7df6c51902df8edf551809fb7 ""
-  "build/main.aux" 1677085192 2909 6fcb5ba324882d72a62733780a894b37 "pdflatex"
-  "build/main.toc" 1677085192 1538 df27ed67dde51ddfd50a546d1bdf510f "pdflatex"
-  "c:/Users/PLAZA INSURGENTES/Desktop/Apuntes-ESFM/Cálculo 3/main.tex" 1677085191 11299 196b30a897bd545bb7fee0162a7f0e28 ""
-  "main.tex" 1677085191 11299 196b30a897bd545bb7fee0162a7f0e28 ""
+  "build/main.aux" 1677183444 2909 59ba722ccb24cf04ca69e80850e59d38 "pdflatex"
+  "build/main.toc" 1677183444 1538 7beb3f016c19d7883268779922138258 "pdflatex"
+  "c:/Users/PLAZA INSURGENTES/Desktop/Apuntes-ESFM/Cálculo 3/main.tex" 1677183443 17293 9bd23ce2b3bf230bd2ffb2df1c57dab0 ""
+  "main.tex" 1677183443 17293 9bd23ce2b3bf230bd2ffb2df1c57dab0 ""
   (generated)
   "build/main.aux"
   "build/main.log"

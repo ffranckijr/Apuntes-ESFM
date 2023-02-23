@@ -12,12 +12,12 @@
 \contentsline {subsubsection}{Demostración de que $R^n$ es un espacio vectorial}{8}{}%
 \contentsline {subsubsection}{Demostración de que su dimensión es n}{9}{}%
 \contentsline {section}{\numberline {2.2}Recordatorio/Repaso}{10}{}%
-\contentsline {chapter}{\numberline {3}Resultados}{11}{}%
-\contentsline {section}{\numberline {3.1}Simulación de resultados}{11}{}%
-\contentsline {subsection}{\numberline {3.1.1}Suposiciones}{11}{}%
-\contentsline {subsection}{\numberline {3.1.2}Modelos}{11}{}%
-\contentsline {section}{\numberline {3.2}Resultados preliminares}{11}{}%
-\contentsline {section}{\numberline {3.3}Resultados postprocesados}{11}{}%
-\contentsline {subsection}{\numberline {3.3.1}Valores atípicos}{11}{}%
-\contentsline {subsection}{\numberline {3.3.2}Correlaciones}{11}{}%
-\contentsline {chapter}{\numberline {4}Conclusiones}{13}{}%
+\contentsline {chapter}{\numberline {3}Resultados}{13}{}%
+\contentsline {section}{\numberline {3.1}Simulación de resultados}{13}{}%
+\contentsline {subsection}{\numberline {3.1.1}Suposiciones}{13}{}%
+\contentsline {subsection}{\numberline {3.1.2}Modelos}{13}{}%
+\contentsline {section}{\numberline {3.2}Resultados preliminares}{13}{}%
+\contentsline {section}{\numberline {3.3}Resultados postprocesados}{13}{}%
+\contentsline {subsection}{\numberline {3.3.1}Valores atípicos}{13}{}%
+\contentsline {subsection}{\numberline {3.3.2}Correlaciones}{13}{}%
+\contentsline {chapter}{\numberline {4}Conclusiones}{15}{}%

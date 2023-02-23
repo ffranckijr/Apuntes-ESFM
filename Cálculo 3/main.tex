@@ -201,6 +201,86 @@ $\\\hspace*{0.4cm}<\overrightarrow{x},\overrightarrow{y}>=\|\overrightarrow{x}\|
     \item $\overrightarrow{x}*\overrightarrow{x}\geq0;$$\overrightarrow{x}*\overrightarrow{x}=0\longleftrightarrow\overrightarrow{x}=\overrightarrow{0}$
 \end{enumerate}
 \subsection*{Observaciones}
+\begin{itemize}
+    \item Es posible definir otras normas, distancias o productos internos.
+    \item Si tienes una norma puedes definir una distancia.
+    \item Si tienes un producto interno puedes definir una norma.
+    
+\end{itemize}
+¿Por que la ortogonalidad es importante?
+\\Por que nos permite establecer bases sencillas de manipular.
+\subsection*{Ejemplo}
+Sea $B=\{\overrightarrow{U_{1}},\overrightarrow{U_{2}}\}$ una base ortogonal y unitaria de $R^2$
+\begin{itemize}
+    \item B genera a $R^2$ ($U_{1}$ y $U_{2}$ son linealmente independientes), eso de la definicion de una base ortogonal.
+    \item $\|\overrightarrow{U_{1}}\|=\sqrt[]{\langle \overrightarrow{U_{1}},\overrightarrow{U_{1}}\rangle}=1$
+    \item $\|\overrightarrow{U_{2}}\|=\sqrt[]{\langle \overrightarrow{U_{2}},\overrightarrow{U_{2}}\rangle}=1$
+\end{itemize}
+Sea $\overrightarrow{X}=(x_{1},x_{2}) \in R^2, \hspace*{0.2cm}\exists \hspace*{0.2cm}\alpha_{1},\alpha_{2}\in R^2$ tal que $\overrightarrow{X}=\alpha_{1}\overrightarrow{U_{1}}+\alpha_{2}\overrightarrow{U_{2}}$
+\\Por un lado considerar el Producto interno con $\overrightarrow{U_{1}}$
+\\$\langle\overrightarrow{X},\overrightarrow{U_{1}}\rangle=\langle\alpha_{1}\overrightarrow{U_{1}}+\alpha_{2}\overrightarrow{U_{2}},\overrightarrow{U_{1}}\rangle$
+$\\\hspace*{1.2cm}=\alpha_{1}\langle\overrightarrow{U_{1}},\overrightarrow{U_{1}}\rangle+\alpha_{2}\langle\overrightarrow{U_{2}},\overrightarrow{U_{1}}\rangle$
+$\\\longrightarrow\hspace*{0.2cm}\alpha_{1}=\langle\overrightarrow{X},\overrightarrow{U_{1}}\rangle$
+\\De manera similar:
+$\\\langle\overrightarrow{X},\overrightarrow{U_{2}}\rangle=\alpha_{2}$
+\\Entonces podemos decir que:
+$\\\overrightarrow{X}=\langle\overrightarrow{X},\overrightarrow{U_{1}}\rangle\overrightarrow{U_{1}}+\langle\overrightarrow{X},\overrightarrow{U_{2}}\rangle\overrightarrow{U_{2}}$
+\section*{El espacio Euclidiano $R^n$}
+\subsection*{Producto interno.}
+Definición: Se define el prodcuto interno entre $\overrightarrow{X}$ y $\overrightarrow{Y}$ $\in R^n$ como:
+$$R^n*R^n\longmapsto R$$
+$$(\overrightarrow{x},\overrightarrow{Y})\longmapsto\hspace*{0.2cm}<\overrightarrow{X},\overrightarrow{Y}>:=\sum_{i=1}^{n}X_{i}Y_{i}$$
+Con:
+$$\overrightarrow{X}=(x_{1},...,x_{n})$$
+$$\overrightarrow{Y}=(y_{1},...,y_{n})$$
+Intuitivamente: El producto interno nos da informacion de la nocion de ortogonalidad.
+\subsubsection*{Teorema: Propiedades del Producto interno.}
+Sean $\overrightarrow{X},\overrightarrow{Y},\overrightarrow{Z}\hspace*{0.2cm}\in R^n$, $\alpha\in R$
+\begin{enumerate}
+    \item $<\overrightarrow{x},\overrightarrow{y}+\overrightarrow{z}>=<\overrightarrow{x},\overrightarrow{y}>+<\overrightarrow{x},\overrightarrow{z}>$
+    \\Demostración:
+    $\\<\overrightarrow{x},\overrightarrow{y}+\overrightarrow{z}>=<(x_{1},...,x_{n}),(y_{1}+z_{1},...,y_{n}+z_{n})>$
+    $\\\hspace*{2.3cm}=\sum_{i=1}^{n}x_{i}(y_{i}+z_{i})=\sum_{i=1}^{n}(x_{i}y_{i}+x_{i}z_{n})$
+    $\\\hspace*{2.3cm}=\sum_{i=1}^{n}x_{i}y_{i}+\sum_{i=1}^{n}x_{i}z_{i}$
+    $\\\hspace*{2.3cm}=<\overrightarrow{x},\overrightarrow{y}>+<\overrightarrow{x},\overrightarrow{z}>$
+    \item $<\overrightarrow{x},\alpha\overrightarrow{y}>=\alpha<\overrightarrow{x},\overrightarrow{y}>=<\alpha\overrightarrow{x},\overrightarrow{y}>$
+    \\Demostración:
+    $\\<\overrightarrow{x},\alpha\overrightarrow{y}>=<(x_{1},...,x_{n}),\alpha(y_{1},...,y_{n})>$
+    $\\\hspace*{1.7cm}=<(x_{1},...,x_{n}),(\alpha y_{1},...,\alpha y_{n})>$
+    $\\\hspace*{1.7cm}=\sum_{i=1}^{n}x_{i}(\alpha y_{i})=\alpha\sum_{i=1}^{n}x_{i} y_{i}$
+    $\\\hspace*{1.7cm}=\alpha<\overrightarrow{x},\overrightarrow{y}>$
+    \\Se puede probar facilmente la tercera igualdad, nota: Es mas facil usar la segunda igualdad previamente probada.
+    \item $<\overrightarrow{x},\overrightarrow{y}>=<\overrightarrow{y},\overrightarrow{x}>$
+    \\Demostración:
+    $\\<\overrightarrow{x},\overrightarrow{y}>=<(x_{1},...,x_{n}),(y_{1},...,y_{n})>$
+    $\\<\overrightarrow{x},\overrightarrow{y}>=\sum_{i=1}^{n}x_{i}y_{i}$
+    $\\<\overrightarrow{x},\overrightarrow{y}>=\sum_{i=1}^{n}y_{i}x_{i}$
+    $\\<\overrightarrow{x},\overrightarrow{y}>=<\overrightarrow{y},\overrightarrow{x}>$
+    \item $<\overrightarrow{x},\overrightarrow{x}>\geq0$ y $<\overrightarrow{x},\overrightarrow{x}>=0$ $\longleftrightarrow$ $\overrightarrow{x}=\overrightarrow{0}$
+    \\Demostración:
+    $\\<\overrightarrow{x},\overrightarrow{x}>=\sum_{i=1}^{n}x_{i}^2\geq0$ 
+    $\\<\overrightarrow{x},\overrightarrow{x}>=0$ $\longleftrightarrow$ $x_{i}=0$ $\forall$ $1\leq i\leq n$
+
+\end{enumerate}
+\subsubsection*{Observación:}
+Usando Las Propiedades 1 y 3:
+$\\<\overrightarrow{x}+\overrightarrow{y},\overrightarrow{z}>=<\overrightarrow{z},\overrightarrow{x}>+<\overrightarrow{z},\overrightarrow{y}>=<\overrightarrow{y},\overrightarrow{z}>+<\overrightarrow{y},\overrightarrow{z}>$
+\subsection*{Norma euclidiana}
+Se define la norma euclidiana de $\overrightarrow{x}\in R^n$, con $\overrightarrow{x}=(x_{1},...,x_{n})$.
+\\Como una función:
+$$\|\cdot\|:R^n \mapsto R^+ \cup \{0\}$$
+$$\overrightarrow{x}\mapsto\|\overrightarrow{x}\|:=\sqrt[]{x_{1}^2+...+x_{n}^2}=\sqrt[]{\langle\overrightarrow{x},\overrightarrow{x}\rangle}$$
+\\Intuitivamente: La norma euclidiana nos da informacion de la longitud del vector.
+\subsection*{Teorema: Propiedades de la norma euclidiana.}
+Sean $\overrightarrow{x},\overrightarrow{y}$ $\in R^n$, $\alpha \in R$ con $\overrightarrow{x}=(x_{1},...,x_{n})$
+\\Entonces:
+\begin{enumerate}
+    \item $\|\overrightarrow{x}\|\geq0$ y $\|\overrightarrow{x}\|=0$ $\longleftrightarrow$ $\overrightarrow{x}=\overrightarrow{0}$
+    \item $\|\alpha\overrightarrow{x}\|=|\alpha|\|\overrightarrow{x}\|$
+    \item Cauchy-Schwarz $|<\overrightarrow{x},\overrightarrow{y}>|\leq\|\overrightarrow{x}\|\|\overrightarrow{y}\|$  
+    \item Desigualdad triangular $\|\overrightarrow{x}+\overrightarrow{y}\|\leq\|\overrightarrow{x}\|+\|\overrightarrow{y}\|$
+\end{enumerate}
+\subsection*{Distancia euclidiana}
 
 \chapter{Resultados}
 \section{Simulación de resultados}
