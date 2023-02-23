@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.2.21)  23 FEB 2023 14:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.2.21)  23 FEB 2023 14:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -135,20 +135,26 @@ LaTeX Info: Redefining \% on input line 218.
 LaTeX Info: Redefining \. on input line 253.
 LaTeX Info: Redefining \% on input line 253.
  [11]
-LaTeX Info: Redefining \. on input line 283.
-LaTeX Info: Redefining \% on input line 283.
+LaTeX Info: Redefining \. on input line 285.
+LaTeX Info: Redefining \% on input line 285.
  [12]
-Cap\'{\i }tulo 3.
-[13
-
-]
-LaTeX Info: Redefining \. on input line 291.
-LaTeX Info: Redefining \% on input line 291.
+LaTeX Info: Redefining \. on input line 285.
+LaTeX Info: Redefining \% on input line 285.
+ [13]
+LaTeX Info: Redefining \. on input line 285.
+LaTeX Info: Redefining \% on input line 285.
  [14
 
 ]
+Cap\'{\i }tulo 3.
+[15]
+LaTeX Info: Redefining \. on input line 293.
+LaTeX Info: Redefining \% on input line 293.
+ [16
+
+]
 Cap\'{\i }tulo 4.
-[15] (c:\Users\PLAZA INSURGENTES\Desktop\Apuntes-ESFM\Cálculo 3\build\main.aux
+[17] (c:\Users\PLAZA INSURGENTES\Desktop\Apuntes-ESFM\Cálculo 3\build\main.aux
 LaTeX Info: Redefining \. on input line 8.
 LaTeX Info: Redefining \% on input line 8.
 ) ) 
@@ -161,9 +167,9 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  40i,16n,52p,334b,432s stack positions out of 10000i,1000n,20000p,200000b,80000s
 <C:/Users/PLAZA INSURGENTES/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/PLAZA INSURGENTES/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/PLAZA INSURGENTES/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/PLAZA INSURGENTES/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/PLAZA INSURGENTES/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/PLAZA INSURGENTES/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/PLAZA INSURGENTES/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/PLAZA INSURGENTES/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/PLAZA INSURGENTES/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/PLAZA INSURGENTES/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/PLAZA INSURGENTES/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Users/PLAZA INSURGENTES/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/PLAZA INSURGENTES/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on "c:\Users\PLAZA INSURGENTES\Desktop\Apuntes-ESFM\Cálculo 3\build\main.pdf" (15 pages, 195447 bytes).
+Output written on "c:\Users\PLAZA INSURGENTES\Desktop\Apuntes-ESFM\Cálculo 3\build\main.pdf" (17 pages, 196502 bytes).
 PDF statistics:
- 116 PDF objects out of 1000 (max. 8388607)
+ 122 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
